@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFC Bank Login</title>
+    <link rel="stylesheet" href="new_self_bank.css">
+    <link rel="stylesheet" href="login_reg.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="Register.html"><img src="logo.png" style="width: 400px;height: 70px; margin: 35px;"></a>
+        </div>
+        <div class="middle">
+            <a href="new_self_bank.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Register.html">Register</a>
+            <a href="login.html">Login</a>
+        </div>
+        <a href="https://offers.smartbuy.hdfcbank.com/offer_details/12771?_ga=2.234375710.1667465133.1624979598-1616737815.1624979598"
+            style="height: 100%; width: 50%; margin: 50px;"><img src="iphone-banner.jpg"></a>
+        <div class="login">
+            <form name="form-login">
+                <h1>Login</h1>
+
+                <label for="userName"></label>
+                <input type="email" id="userName" placeholder="Username" required />
+
+                <label for="userPw"></label>
+                <input type="password" id="userPw" placeholder="Password" required />
+
+                <div id="remember">
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe" style="display: inline-block" />
+                    <label>Remember me</label>
+                </div>
+
+                <input id="login_btn" type="submit" value="Login" onclick="check()" />
+            </form>
+        </div>
+        <script>
+            //checking
+            function check() {
+                var storedName = localStorage.getItem("name");
+                var storedPw = localStorage.getItem("pw");
+
+                var userName = document.getElementById("userName");
+                var userPw = document.getElementById("userPw");
+                var userRemember = document.getElementById("rememberMe");
+
+                if (userName.value == storedName && userPw.value == storedPw) {
+                    window.open("temp.html")
+                } else {
+                    alert("Error on login");
+                }
+            }
+
+        </script>
+    </div>
+</body>
+
+</html>
