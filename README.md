@@ -12,3 +12,5 @@ We have added external css and js files in all our html pages as we didnt want t
 Also I should have just created a zip file instead of uploading individual files. But well whats done is done. Good thing I am not writing this readme article for a company otherwise my boss would have whooped my a**.
 
 Yeah thats pretty much it for this project!
+
+Feel free to give me the best documentation and readme file of the year award!
