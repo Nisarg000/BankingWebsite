@@ -9,4 +9,6 @@ temp.html stands for the withdraw and deposit page. //sorry for the ugly filenam
 
 We have added external css and js files in all our html pages as we didnt want to make our code look ugly. //also external files have many advantages bu I am too lazy to type them here now!
 
+Also I should have just created a zip file instead of uploading individual files. But well whats done is done. Good thing I am not writing this readme article for a company otherwise my boss would have whooped my a**.
+
 Yeah thats pretty much it for this project!
