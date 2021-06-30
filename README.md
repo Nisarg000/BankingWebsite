@@ -1,7 +1,7 @@
 # BankingWebsite
 I have coded this website using css,js and html. Me and my friends have coded this very simple website.
 
-In our website I may have added a few code from the internet but otherwise the rest of the coding is done by using our won logic //I wanted to write this honestly here
+In our website I may have added a few code from the internet but otherwise the rest of the coding is done by using our own logic //I wanted to write this honestly here
 
 In order to use our website make sure you change the filenames path on login.html,temp.html etc.
 
